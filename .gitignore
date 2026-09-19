@@ -1,0 +1,34 @@
+# Датасет
+dataset/images/
+dataset/labels/
+dataset/labels_yolo/
+dataset/*.cache
+
+# Результаты обучения
+runs/
+
+# Результаты инференса
+output/
+incoming/
+samples/
+samples_midv/
+midv500_data/
+
+# Виртуальное окружение
+venv/
+.venv/
+env/
+
+# Кэш Python
+__pycache__/
+*.pyc
+
+# Служебные файлы PyCharm
+.idea/
+
+# Веса моделей
+*.pt
+
+# Логи и временные файлы
+*.log
+*.tmp
